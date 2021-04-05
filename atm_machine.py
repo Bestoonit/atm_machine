@@ -38,10 +38,10 @@ def main():
             elif val == 4:
                 break
             elif val != 1 or val != 2 or val != 3 or val != 4:
-                print("Type one number between 1, 2, 3, 4 as an option. ")
+                print("Choose a number between 1, 2, 3, 4 as an option. ")
                 main()
         except ValueError:
-            print("Type one number between 1, 2, 3, 4 as an option. ")
+            print("Choose a number between 1, 2, 3, 4 as an option. ")
             main()
 
 if __name__ == "__main__":
