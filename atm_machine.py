@@ -39,11 +39,11 @@ def main():
             elif val == 4:
                 break
             elif val not in choice:
-                print("Choose a number between 1, 2, 3, 4 as an option. ")
+                print("Choose a number between 1-4 as an option. ")
                 main()
 
         except ValueError:
-            print("Choose a number between 1, 2, 3, 4 as an option. ")
+            print("Choose a number between 1-4 as an option. ")
             main()
 
 if __name__ == "__main__":
