@@ -26,7 +26,7 @@ def main():
         print("\nSelect an option: \n")
         print("1- Show balance")
         print("2- Insert money")
-        print("3- Take out money")
+        print("3- Withdraw money")
         print("4- Cancel ")
         try:
             val = int(input(": "))
